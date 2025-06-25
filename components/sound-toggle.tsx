@@ -117,7 +117,7 @@ export function SoundToggle() {
 
       gainNode.gain.setValueAtTime(0, audioContext.currentTime)
       gainNode.gain.linearRampToValueAtTime(0.1, audioContext.currentTime + 0.05)
-      gainNode.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.3)
+      gainNode.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.3)
 
       oscillator.connect(gainNode)
       gainNode.connect(audioContext.destination)
