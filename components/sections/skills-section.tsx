@@ -56,7 +56,7 @@ export function SkillsSection() {
 
   useEffect(() => {
     const currentSkills = skillCategories[selectedCategory as keyof typeof skillCategories].skills
-    const newAnimatedLevels: { [key: string]: number } = {}
+    //const newAnimatedLevels: { [key: string]: number } = {}
 
     currentSkills.forEach((skill, index) => {
       setTimeout(() => {
@@ -98,7 +98,7 @@ export function SkillsSection() {
             </h3>
 
             <div className="space-y-6">
-              {skillCategories[selectedCategory as keyof typeof skillCategories].skills.map((skill, index) => (
+              {skillCategories[selectedCategory as keyof typeof skillCategories].skills.map((skill /*index*/) => (
                 <div key={skill.name} className="space-y-2">
                   <div className="flex justify-between items-center">
                     <span className="text-green-300 font-mono">{skill.name}</span>

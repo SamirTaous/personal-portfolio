@@ -9,7 +9,7 @@ interface TerminalProps {
   sections: string[]
 }
 
-export function Terminal({ onNavigate, sections }: TerminalProps) {
+export function Terminal({ onNavigate, /*sections*/ }: TerminalProps) {
   const [isMinimized, setIsMinimized] = useState(false)
   const [input, setInput] = useState("")
   const [history, setHistory] = useState<string[]>([
@@ -23,7 +23,7 @@ export function Terminal({ onNavigate, sections }: TerminalProps) {
   ])
   const [commandHistory, setCommandHistory] = useState<string[]>([])
   const [historyIndex, setHistoryIndex] = useState(-1)
-  const [isTyping, setIsTyping] = useState(false)
+  const [isTyping, /*setIsTyping*/] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const terminalRef = useRef<HTMLDivElement>(null)
 

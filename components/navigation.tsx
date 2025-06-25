@@ -6,7 +6,7 @@ interface NavigationProps {
   onNavigate: (index: number) => void
 }
 
-export function Navigation({ currentSection, totalSections, onNavigate }: NavigationProps) {
+export function Navigation({ currentSection, /*totalSections*/onNavigate }: NavigationProps) {
   const sections = ["INTRO", "ABOUT", "PROJECTS", "SKILLS", "CONTACT"]
 
   const handleClick = (index: number) => {
