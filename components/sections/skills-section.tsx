@@ -9,7 +9,10 @@ const skillCategories = {
       { name: "Java", level: 90 },
       { name: "JavaScript", level: 85 },
       { name: "C++", level: 80 },
+      { name: "Python", level: 70 },
+      { name: "Git", level: 70 }
       { name: "PHP", level: 75 },
+      { name: "C#", level: 85 },
       { name: "HTML/CSS", level: 90 },
     ],
   },
@@ -37,6 +40,7 @@ const skillCategories = {
       { name: "PostgreSQL", level: 80 },
       { name: "MySQL", level: 85 },
       { name: "Oracle DB", level: 75 },
+      { name: "Mongo DB", level: 85 }
     ],
   },
   concepts: {

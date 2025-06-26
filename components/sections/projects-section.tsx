@@ -6,14 +6,30 @@ import { ExternalLink, Github } from "lucide-react"
 const projects = [
   {
     id: 1,
+    title: "Odoo Route Optimization Module (In Progress)",
+    description:
+      "Developing a custom Odoo module to optimize delivery routes using Python and AI concepts. Includes dynamic fleet assignment and route logic.",
+    tech: ["Python", "Odoo ERP", "QWeb", "Javascript", "Optimization"],
+    status: "In Progress",
+  },
+  {
+    id: 2,
     title: "Cloud-Native FinTech Application",
     description:
       "Developed React.js dashboards, integrated backend APIs, and contributed to a microservices architecture. Deployed using Docker and CI/CD for automated testing and deployment.",
     tech: ["React.js", "JavaScript", "REST API", "Docker", "CI/CD"],
-    status: "Production",
+    status: "Completed",
   },
   {
-    id: 2,
+    id: 3,
+    title: "Educational Quiz Game",
+    description:
+      "Built a cross-platform educational quiz game using Unity and C#. Features include open/closed question types, animated transitions, user feedback, and game logic. ",
+    tech: ["Unity", "C#", "Mongo DB", "Flask", "JSON"],
+    status: "Completed",
+  },
+  {
+    id: 4,
     title: "RPG Game with Procedural Generation",
     description:
       "Developed an RPG game in Unity with C# featuring procedural map generation and A* pathfinding for enemy movement and coin collection.",
@@ -21,7 +37,7 @@ const projects = [
     status: "Completed",
   },
   {
-    id: 3,
+    id: 5,
     title: "Oracle Administration Application",
     description:
       "Developed an application for user management, performance monitoring, RMAN backup/restore, and query optimization.",

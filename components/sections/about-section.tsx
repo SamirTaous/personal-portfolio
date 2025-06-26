@@ -9,7 +9,7 @@ export function AboutSection() {
 
           <div className="space-y-4 text-green-300">
             <p className="text-lg leading-relaxed">
-              Software Engineering student specializing in AI and system design. Currently pursuing my Engineering Cycle
+              Software Engineering student specializing in AI and Web Development. Currently pursuing my Engineering Cycle
               at Faculty of Sciences and Technologies, Tangier.
             </p>
 
