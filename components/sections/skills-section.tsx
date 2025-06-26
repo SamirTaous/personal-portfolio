@@ -10,7 +10,7 @@ const skillCategories = {
       { name: "JavaScript", level: 85 },
       { name: "C++", level: 80 },
       { name: "Python", level: 70 },
-      { name: "Git", level: 70 }
+      { name: "Git", level: 70 },
       { name: "PHP", level: 75 },
       { name: "C#", level: 85 },
       { name: "HTML/CSS", level: 90 },
